@@ -1,0 +1,183 @@
+body{
+	background-image: url(kepek/kep1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	font-family: 'Roboto', sans-serif;
+	color:#FFFFFF;
+}
+
+*, *::before, *::after{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	max-width: 100%;
+}
+
+/* menüsor eleje */
+a{
+	color: #FFFF;
+}
+
+a:link{
+	text-decoration: none;
+	text-decoration-color: none;
+}
+
+.menuresz{
+	justify-content: space-around;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: rgba(0,0,0, 0.7);
+}
+
+.gomb:hover a{
+	color: #000000;
+}
+
+
+.gomb{
+
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 32px;
+	margin: 5px;
+	padding: 5px;
+	color: #000000;
+}
+
+.gomb:hover{
+	background-clip: padding-box;
+	background-color: #FFFFFF;
+	color: #000000;
+	padding: 5px;
+}
+
+.aktiv-gomb{
+	background-clip: padding-box;
+	background-color: #FFFFFF;
+	color: #000000;
+	padding: 5px;
+}
+
+.aktiv-gomb a{
+	background-clip: padding-box;
+	background-color: #FFFFFF;
+	color: #000000 !important;
+	padding: 5px;
+}
+
+a{
+	margin:0;
+	padding:0;
+	font-size: 2.5vw;
+
+}
+
+}
+.menuresz a:hover{
+	background-color: #FFFFFF;
+	color: #000000;
+}
+.menu{
+	background-color: rgba(0,0,0, 0.6);
+}
+/* menüsor vége */
+
+/*első lap*/
+#elsolap{
+	text-align: center;
+	display: grid;
+}
+.cim{
+	display: grid;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 13vw 8vw 13vw 8vw;
+	padding: 0;
+	background-color: rgba(0,0,0,0.9);
+	font-size: 5vw;
+}
+/*első lap vége*/
+
+
+/* rólam oldal css*/
+.grid1{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+	grid-gap: 10px;
+}
+
+
+.kartya8{	
+	display: block;
+	margin: 1rem;
+	object-fit: contain;
+}
+
+.kartya_sz{
+	display: block;
+	background-color: rgba(0,0,0,0.9);
+	border-radius: 0.5rem;
+	color:#FFFFFF;
+	margin:20px;
+	padding:10px;
+	font-size: 1.6vw;	
+}
+/*rólam oldal vége*/
+
+
+/*munkaim*/
+.kartya2{
+	display: block;
+	padding: 20px;
+	margin: 0px;
+	background-color: #000000;
+	border-radius: 1rem;
+}
+
+.grid2{
+	display: grid;
+	grid-gap: 2rem;
+	grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+	margin: 30px;
+}
+/*munkaim*/
+
+
+/*Tervezés*/
+.grid4{
+	max-width: 1000px;
+	margin: 40px auto;
+	display:grid;
+	grid-template-columns: 1fr;
+	grid-gap: 10px;
+	background: rgba(0,0,0,0.9);
+}
+
+.kartyatest{
+	padding: 20px;
+}
+
+.kartyatest h1{
+	margin:0;
+	padding:0;
+	font-size: 6vw;
+}
+
+.kartyatest p{
+	margin:0;
+	padding:0;
+	font-size: 2vw;
+}
+
+.kartyatest h3{
+	margin:0;
+	padding:0;
+	font-size: 3vw;
+}
+/*tervezés vége*/
